@@ -23,20 +23,3 @@ button2.addEventListener('click', function(e) {
         button2.textContent = 'visibility_off';
     }
 })
-
-/*const register = document.querySelector('.register')
-const username = document.querySelector('#username')
-const email = document.querySelector('#email')
-
-function checkInputs() {
-    if (username.value,trim() === '' && password.value.trim() === '' && password2value.trim() === '' && emailvalue.trim() === '') {
-        register.removeAttribute('disabled')
-    } else {
-        register.setAttribute('disabled', true)
-    }
-}
-
-username.addEventListener('input', checkInputs)
-password.addEventListener('input', checkInputs)
-password2.addEventListener('input', checkInputs)
-email.addEventListener('input', checkInputs)  */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <span class="title"><h2>Регистрация</h2></span>
+            <div class="border-helper"></div>
+            <form>
+                <span class="container__user-input">
+                    <label for="username" class="username">Логин</label>
+                    <input type="text" name="username" id="username" placeholder="Введите логин" required>
+                </span>
+
+                <span class="container__user-input password-input">
+                    <label for="password" class="password">Пароль</label>
+                    <input type="password" name="password" id="password" placeholder="Введите пароль" required>
+                    <button class="material-symbols-outlined visibility" id="visibility" type="button">visibility_off</button>
+                </span>
+
+                <span class="container__user-input password-input">
+                    <label for="cpassword" class="password">Пароль</label>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="Подтвердите пароль" required>
+                    <button class="material-symbols-outlined visibility" id="visibility2" type="button">visibility_off</button>
+                </span>
+
+                <span class="container__user-input">
+                    <label for="email" class="email">Почта</label>
+                    <input type="email" name="email" class="container__user-input" required placeholder="Введите почту">
+                </span>
+
+                <button type="submit" class="register" disabled="false">Зарегестрироваться</button>
+            </form>
+            <a class="existing" href="#">Уже есть аккаунт?</a>
+
+            <div class="thru-socials">
+                <p>Или</p>
+                <div class="socials">
+                    <a class="social-logo" href="#"><img src="images/google.png" height="35px"></a>
+                    <a class="social-logo" href="#"><img src="images/vk.png" height="35px"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

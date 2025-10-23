@@ -66,13 +66,6 @@ body{
     box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.486);
 }
 
-/*.register:disabled {
-    cursor:auto;
-    background-color: rgba(53, 53, 53, 0.514);
-    color:rgb(175, 175, 175);
-    box-shadow: 0px 0px 10px 5px rgba(207, 207, 207, 0.486);
-}*/
-
 .container__user-input {
     display: flex;
     flex-direction: column;
@@ -147,4 +140,5 @@ a{
     body {
         background-size: auto;
     }
+
 }
